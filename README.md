@@ -25,3 +25,6 @@ Use the following API endpoint for each test case.
 3. Assert the items listed below are true for value of "min_abstract_length": <br />
     * Condition 1: Not null
     * Condition 2: Is an number
+   
+## RESULT:
+![img.png](img.png)

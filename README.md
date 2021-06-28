@@ -26,5 +26,15 @@ Use the following API endpoint for each test case.
     * Condition 1: Not null
     * Condition 2: Is an number
    
+## HOW TO RUN
+```shell
+cd project_dir\full\path\qa_challenge_javascript
+npm run challenges
+```
+or 
+```shell
+cd project_dir\full\path\qa_challenge_javascript
+node src\index.js
+```
 ## RESULT:
 ![img.png](img.png)

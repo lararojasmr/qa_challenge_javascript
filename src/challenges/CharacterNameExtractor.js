@@ -1,7 +1,8 @@
 class CharacterNameExtractor {
 
     static run(data) {
-        return data.Result.match(/<a.*>(.*)<\/a>/i)[1];
+        const name = data.Result.match(/<a.*>(.*)<\/a>/i)[1];
+        return  name.replace(/\(.*\)/i, '').trim();
     }
 
     static getName() {

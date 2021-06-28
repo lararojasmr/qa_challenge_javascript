@@ -4,7 +4,7 @@
   "description": "This is a project that represent the challenge sent by predictive",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "challenges": "node src/index.js"
   },
   "keywords": [],
   "author": "lararojas.mr@gmail.com",
